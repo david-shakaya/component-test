@@ -1,3 +1,15 @@
+.subtitle__hiden {
+  visibility: hidden;
+  height: 0px;
+  transition: 0.1s;
+}
+
+.subtitle__hiden--visible {
+  visibility: visible;
+  height: 60px;
+  transition: 0.5s;
+}
+
 .parallax {
   height: 100vh;
   overflow-x: hidden;
